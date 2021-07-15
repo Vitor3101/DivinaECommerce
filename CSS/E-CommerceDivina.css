@@ -1,0 +1,153 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid {
+    margin: 0%, 8, 3333%;
+    width: 83.33333%;
+}
+
+p {
+    font-size: 14px;
+    color: #6C6969;
+    line-height: 16.41px;
+}
+
+span {
+    font-size: 14px;
+    color: #660027;
+    line-height: 16.41px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Inicio do Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 192px;
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+}
+
+.apoio_logo {
+    height: 70px;
+}
+
+.apoio_logo img {
+    height: 100%;
+}
+
+.nav_header {
+    width: 26.4166%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_header a {
+    text-decoration: unset;
+    color: black;
+    font-size: 14px;
+}
+
+
+/* Inicio da Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section img {
+    width: 100%;
+}
+
+section h1 {
+    color: #660027;
+    font-size: 36px;
+    margin-top: 24px;
+    margin-bottom: 17px;
+}
+
+.blocos_visuais {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 83px;
+    margin-bottom: 72px;
+}
+
+article {
+    width: 24%;
+    /* height: 28.5vw; */
+    height: 110%;
+    border: 1px solid #9E9B9B;
+    border-radius: 4px;
+}
+
+article img {
+    width: 100%;
+}
+
+article p {
+    margin-left: 11.2%;
+    margin-top: 9.23%;
+    margin-right: 10%;
+}
+
+article h2 {
+    color: #660027;
+    font-size: 24px;
+    margin-top: 13.84%;
+    margin-left: 11.2%;
+}
+
+.botao_saiba-mais {
+    height: 42px;
+    width: 51.2%;
+    margin-top: 11.15%;
+    margin-left: 11.2%;
+    margin-bottom: 14.26%;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Incio do footer */
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #660027;
+    display: flex;
+    justify-content: center;
+}
+
+.apoio_footer {
+    width: 60%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.apoio_footer span {
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
