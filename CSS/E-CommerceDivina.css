@@ -7,12 +7,13 @@
 }
 
 .grid {
-    margin: 0%, 8, 3333%;
+    margin-left: 8.333%;
+    margin-right: 8.333%;
     width: 83.33333%;
 }
 
 p {
-    font-size: 14px;
+    font-size: 85%;
     color: #6C6969;
     line-height: 16.41px;
 }
@@ -21,6 +22,18 @@ span {
     font-size: 14px;
     color: #660027;
     line-height: 16.41px;
+}
+
+button {
+    background-color: #660027;
+    border: 2px solid #660027;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+
+#body_contato {
+    height: 1000px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -65,6 +78,7 @@ header div {
 /* Inicio da Main */
 
 main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,7 +90,7 @@ section img {
 
 section h1 {
     color: #660027;
-    font-size: 36px;
+    font-size: 200%;
     margin-top: 24px;
     margin-bottom: 17px;
 }
@@ -150,4 +164,86 @@ footer {
     color: white;
     margin-top: 2%;
     margin-bottom: 2%;
+}
+
+
+/* Pagina de contato */
+
+#contato {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+}
+
+#bloco_contato_input {
+    width: 65%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+#bloco_apoio_infos {
+    height: 700px;
+    width: 33.333%;
+    background-color: #660027;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section input {
+    width: 51.22%;
+    height: 6%;
+    padding-left: 2%;
+    font-size: 16px;
+    border: 1px solid #660027;
+    border-radius: 4px;
+}
+
+.estrutura_input {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1.3px solid #660027;
+    border-radius: 5px;
+}
+
+.estrutura_input span {
+    font-size: 14px;
+    color: #6C6969;
+    line-height: 16.41px;
+    width: 51.22%;
+    margin-top: 2.8%;
+    margin-bottom: 0.5%;
+}
+
+#campo_mensagem {
+    height: 18%;
+}
+
+.apoio_botao {
+    width: 51.28%;
+    height: 6%;
+    margin-top: 5.8%;
+}
+
+.apoio_botao button {
+    width: 30.50%;
+    height: 100%;
+}
+
+#apoio_infos {
+    width: 58.5%;
+    height: 11.14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#apoio_infos span {
+    text-align: center;
+    color: white;
 }
